@@ -3,6 +3,7 @@ a{
     text-decoration: none;
     color: black;   
 }
+p{font-size: 20px;}
 *{
     font-family: 'Barlow', sans-serif;
 }
@@ -10,7 +11,10 @@ ul,li
 {
     margin-bottom: 0px;
 }
-
+.container-div{
+    max-width:1320px;
+    margin: 0 auto;
+}
 .font-Poppins
 {
     font-family: 'Poppins', sans-serif !important;
@@ -553,4 +557,58 @@ footer {
 {
     border: 1px solid black;
   border-collapse: collapse;
+}
+
+
+
+/*---------------------------------------------- media query ------------------------------------------------------------ */
+@media only screen and (max-width: 1400px){
+    .container-div{
+        max-width: 1150px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .container-div{
+        max-width: 1024px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .container-div{
+        max-width: 992px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .container-div{
+        max-width: 800px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .container-div{
+        max-width: 768px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .container-div{
+        max-width: 667px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container-div{
+        max-width: 576px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .container-div{
+        max-width: 441px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .container-div{
+        max-width: 375px;
+    }
+}
+@media only screen and (max-width: 441px){
+    .container-div{
+        max-width: 333px;
+    }
 }
