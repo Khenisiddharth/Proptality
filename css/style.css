@@ -63,6 +63,10 @@ ul,li
     position: relative;
     z-index: 10;
 }
+.headerfont
+{
+    font-size: 20px;
+}
 .title
 {
     font-weight: 700;
@@ -117,7 +121,7 @@ ul,li
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 44px;
     color: #fff;
     position: absolute;
     font-family: 'Barlow', sans-serif;
@@ -129,7 +133,7 @@ ul,li
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 44px;
     color: #fff;
     position: absolute;
     font-family: 'Barlow', sans-serif;
@@ -141,7 +145,7 @@ ul,li
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 44px;
     color: #fff;
     position: absolute;
     font-family: 'Barlow', sans-serif;
@@ -153,7 +157,7 @@ ul,li
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 41px;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -169,7 +173,7 @@ ul,li
         width:100%;
         font-weight: 700;
        text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-        font-size: 40px;
+        font-size: 41px;
         color: #fff;
         position: absolute;
         left: 50%;
@@ -180,7 +184,7 @@ ul,li
 {
     font-weight: 700;
    text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 41px;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -202,7 +206,7 @@ ul,li
 .customtitle2 {
     font-weight: 700;
    text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 44px;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -225,7 +229,7 @@ ul,li
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 44px;
     color: #fff;
     position: absolute;
     top: 19px;
@@ -236,7 +240,7 @@ ul,li
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 44px;
     color: #fff;
     position: absolute;
     top: -30px;
@@ -247,7 +251,7 @@ ul,li
 {  
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 44px;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -259,7 +263,7 @@ ul,li
     width: 100%;
     font-weight: 700;
    text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 40px;
+    font-size: 41px;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -298,6 +302,14 @@ z-index: 20;}
     top: 57px;
     right: 27px;
 } */
+.paintingimg
+{
+    width: 29rem;
+}
+.serviceimg
+{
+    height: 250px;
+}
 :hover.head
 {
     color: #EF0A21;
@@ -723,6 +735,7 @@ footer {
 .paintcard
 {
     width: 18rem;
+    height: 277px;
 }
 .solarimg
 {
@@ -766,7 +779,24 @@ h1{font-size: 38px;}
     .container-div{
         max-width: 1024px;
     }
-    h1{font-size: 35px;}
+    .red-button , .blue-button{
+        padding: 16px 38px !important;
+    }
+    .paintcard
+{
+    width: 15rem;
+    height: 308px;
+}
+    h1{font-size: 37px;}
+    .galleryimg {
+        width: 338px;
+        height: 230px;
+    }
+    .forminput
+{
+    width: 210px;
+
+}
     
 }
 @media only screen and (max-width: 1100px){
@@ -776,32 +806,122 @@ h1{font-size: 38px;}
     .red-button , .blue-button{
         padding: 16px 28px !important;
     }
+    h1{font-size: 36px;}
+    .paintingimg
+{
+    width: 28rem;
+}
+.galleryimg {
+    width: 325px;
+    height: 220px;
+}
+.footer-number ul li a svg {
+    margin-right: 10px;
+}
+.footer-number ul li a {
+    font-size: 18px;
+}
+.links {
+    font-size: 18px;
+}
+.copyright p {
+    font-size: 18px;
+}
+.content-slider-img
+{
+    height: 350px;
+}
 }
 @media only screen and (max-width: 1024px){
     .container-div{
-        max-width: 800px;
+        max-width: 920px;
     }
-    p{font-size: 18px;}
+    h1 {
+        font-size: 33px;
+    }
+    p{font-size: 15px;}
     .red-button , .blue-button{
         padding: 16px 20px !important;
     }
+    .galleryimg {
+        width: 300px;
+        height: 200px;
+    }
+    .paintcard {
+        width: 14rem;
+    }
+    .btn-submit {
+        width: 200px;
+    }
+    .forminput
+    {
+        width: 200px;
+    
+    }
+    .paintingimg {
+        width: 27rem;
+    }
+    .headerfont
+{
+    font-size: 17px;
+}
 }
 @media only screen and (max-width: 950px){
     .container-div{
         max-width: 768px;
     }
     .red-button , .blue-button{
-        padding: 16px 20px !important;
+        padding: 16px 38px !important;
+    }
+    .galleryimg {
+        width: 255px;
+        height: 180px;
+    }
+    .paintingimg {
+        width: 23rem;
+    }
+    .btn-submit {
+        width: 170px;
+    }
+    .forminput {
+        width: 170px;
+    }
+    .paintcard
+    {
+        width: 18rem;
+        height: 277px;
     }
 }
 @media only screen and (max-width: 850px){
     .container-div{
         max-width: 667px;
     }
+    .paintingimg {
+        width: 33rem;
+    }
+    .formargin
+    {
+        margin-top: 24px;
+    }
+    .galleryimg {
+        width: 220px;
+        height: 150px;
+    }
+    .forminput {
+        width: 200px;
+    }
+    .btn-submit {
+        width: 200px;
+    }
+        
 }
 @media only screen and (max-width: 768px){
     .container-div{
         max-width: 576px;
+    }
+    .paintcard {
+        width: 16rem;
+        height: 277px;
     }
 }
 @media only screen and (max-width: 600px){
