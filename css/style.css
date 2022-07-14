@@ -117,37 +117,97 @@ ul,li
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 45px;
+    font-size: 40px;
     color: #fff;
     position: absolute;
     font-family: 'Barlow', sans-serif;
-    top: 21px;
-    left: 51%;
+    top: 26px;
+    left: 50%;
     transform: translate(-50%, 0);
 }
 .proptitle2
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 45px;
+    font-size: 40px;
     color: #fff;
     position: absolute;
     font-family: 'Barlow', sans-serif;
-    top: -27px;
-    left: 51%;
+    top: -24px;
+    left: 50%;
     transform: translate(-50%, 0);
 }
 .gallerytitle
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 45px;
+    font-size: 40px;
     color: #fff;
     position: absolute;
     font-family: 'Barlow', sans-serif;
     top: 25px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+.heatertitle
+{
+    font-weight: 700;
+    text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: 51px;
+
+}
+.titlecolor .factortitle{
+    color: #EAF8FF;
+}
+.factortitle
+{
+        width:100%;
+        font-weight: 700;
+       text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
+        font-size: 40px;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        top: 18px;
+}
+.methodtitle
+{
+    font-weight: 700;
+   text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: -28px;
+}
+.page3title
+{
+        width: 100%;
+        font-weight: 700;
+        text-shadow: -1px 0 rgb(17 28 56 / 20%), 0 1px rgb(17 28 56 / 20%), 1px 0 rgb(17 28 56 / 20%), 0 -1px rgb(17 28 56 / 20%);
+        font-size: 40px;
+        color: #fff;
+        position: absolute;
+        top: -29px;
+        left: 50%;
+        transform: translate(-50%, 0px);   
+}
+.customtitle2 {
+    font-weight: 700;
+   text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: -27px;
 }
 /* .sixtitle
 {
@@ -159,13 +219,13 @@ ul,li
   
 } */
 .title-faqs{
-    top: 6px;
+    top: 2px;
 }
 .sixtitle2
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 45px;
+    font-size: 40px;
     color: #fff;
     position: absolute;
     top: 19px;
@@ -176,7 +236,7 @@ ul,li
 {
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 45px;
+    font-size: 40px;
     color: #fff;
     position: absolute;
     top: -30px;
@@ -187,12 +247,25 @@ ul,li
 {  
     font-weight: 700;
     text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0px);
-    top: -30px;
+    top: -21px;
+}
+.maintainheader
+{
+    width: 100%;
+    font-weight: 700;
+   text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: -27px;
+
 }
 .arrow1
 {
@@ -254,6 +327,24 @@ z-index: 20;}
 {
     width: 60px;
     top: 72px;
+}
+.brand-border
+{
+    width: 80px;
+    top: 52px;
+}
+.galleryheader
+{ 
+    width: 100%;
+    font-weight: 700;
+   text-shadow: -1px 0 rgba(17, 28, 56 , 0.2), 0 1px rgba(17, 28, 56 , 0.2), 1px 0 rgba(17, 28, 56 , 0.2), 0 -1px rgba(17, 28, 56 , 0.2);
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: 21px;
+
 }
 .request
 {
@@ -664,12 +755,12 @@ footer {
 {
     width: 23rem;
 }
-h1{font-size: 35px;}
 .heaterbrand
 {
     width: 13rem;
-    height: 150px;
+    height: 130px;
 }
+h1{font-size: 38px;}
 }
 @media only screen and (max-width: 1200px){
     .container-div{
