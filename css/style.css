@@ -190,6 +190,7 @@ ul,li
         left: 50%;
         transform: translate(-50%, 0px);
         top: 18px;
+        margin-bottom: 0.5rem;
 }
 .methodtitle
 {
@@ -781,6 +782,7 @@ footer {
     display: block;
     box-sizing: border-box;
     overflow: hidden;
+    width: 30rem;
 }
 .dropdown-menu
 {
@@ -975,6 +977,7 @@ h1{font-size: 38px;}
         width: 18rem;
         height: 277px;
     }
+    .factortitle{font-size: 34px;}
 }
 @media only screen and (max-width: 850px){
     .container-div{
@@ -1087,27 +1090,18 @@ h1{font-size: 38px;}
         width: 280px;
         height: 180px;
     }
+    .tableborder tr td{
+        font-size: 15px ;
+        padding: 5px !important;
+     }
+     .tableborder thead th{font-size: 18px !important; padding: 5px !important;}
 }
    
-
 
 .heater-brands-img{
     width: 240px;  
      /* media >  600px  >> width:200px; */
     min-height: 150px;
- 
-}
-.w-30{width:30%; max-width: 324px;}
-@media only screen and (max-width: 1200px){
-.card1{width:25rem}
-.card-img-top1{width:21rem; min-height: 21rem;}
-}
-@media only screen and (max-width: 950px){
-.card1{width:20rem}
-.card-img-top1{width:16rem; min-height: 16rem;}
-}
-@media only screen and (max-width: 850px){
-.card1{width:18rem}
-.card-img-top1{width:14rem; min-height: 14rem;}
-}
 
+
+}
