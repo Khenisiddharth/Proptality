@@ -633,7 +633,10 @@ footer {
 .footer-link ul li:last-child {
     margin: 0;
 }
-
+.addtext
+{
+    font-size: 20px;
+}
 .links {
     font-size: 20px;
     color: #111C38;
@@ -1054,7 +1057,15 @@ h1{font-size: 38px;}
         font-size: 16px;
     }
     .footer-link h4 {
+        
+    font-size: 18px;
+    }
+    .addtext
+    {
         font-size: 18px;
+    }
+    .request {
+        font-size: 42px;
     }
 }
 @media only screen and (max-width: 500px){
@@ -1081,6 +1092,7 @@ h1{font-size: 38px;}
     .footer-link h4 {
         font-size: 18px;
     }
+
 }
 @media only screen and (max-width: 441px){
     .container-div{
@@ -1090,13 +1102,36 @@ h1{font-size: 38px;}
         width: 280px;
         height: 180px;
     }
-    .tableborder tr td{
-        font-size: 15px ;
-        padding: 5px !important;
-     }
-     .tableborder thead th{font-size: 18px !important; padding: 5px !important;}
+    .footer-number ul li a {
+        font-size: 16px;
+    }
+    .footer-link2 {
+        padding: 0px 0 0 30px;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
+    .addtext
+    {
+        font-size: 16px;
+    }
+    .request {
+        font-size: 32px;
+    }
+    .brands-img {
+        width: 330px;
+        height: auto;
+    }
 }
    
+.painttitle
+{
+    font-size: 1.30rem;
+}
+.carddesc
+{
+    font-size: 20px;
+}
 
 .heater-brands-img{
     width: 240px;  
