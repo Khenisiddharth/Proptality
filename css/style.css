@@ -697,6 +697,7 @@ footer {
     display: block;
     box-sizing: border-box;
     overflow: hidden;
+    width: 30rem;
 }
 .dropdown-menu
 {
@@ -938,4 +939,8 @@ h1{font-size: 38px;}
     .container-div{
         max-width: 333px;
     }
+   
 }
+
+
+
