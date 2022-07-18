@@ -626,7 +626,7 @@ footer {
 }
 
 .footer-link2 {
-    padding: 0 0 0 57px;
+    padding: 0 0 0 20px;
 }
 
 .footer-link h4 {
@@ -860,7 +860,7 @@ footer {
 
 /**** HEADER *****/
 header {
-    padding: 34px 27px;
+    padding: 26px 27px;
     position: absolute;
     left: 0;
     top: 0;
@@ -1131,6 +1131,9 @@ h1{font-size: 38px;}
     .headerfont {
         font-size: 13px;
     }
+    .footer-link2 {
+        padding: 0 0 0 10px;
+    }
 }
 @media only screen and (max-width: 850px){
     .container-div{
@@ -1223,6 +1226,9 @@ h1{font-size: 38px;}
         right: 251px !important;
         width: 30px !important;
         height: 30px !important;
+    }
+    .footer-link {
+        padding: 0px;
     }
 }
 @media only screen and (max-width: 650px){
@@ -1384,6 +1390,12 @@ h1{font-size: 38px;}
     .costtitle {
         font-size: 37px;
         top: -27px;
+    }
+    .footer-link2 {
+        padding: 0px 0 0 13px;
+    }
+    .footer-number ul li a {
+        padding: 15px 15px;
     }
     
 }
