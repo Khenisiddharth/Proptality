@@ -505,7 +505,15 @@ z-index: 20;}
 {
     align-self: end;
 }
-
+.reviewcontainer
+{
+    width: 50%;
+}
+.mobiledropdown
+{
+    width: 100%;
+    background-color: #fff;
+}
 .mySlides {display: none}
 img {vertical-align: middle;}
 /* Slideshow container */
@@ -761,7 +769,14 @@ footer {
     cursor: pointer;
     
 }
-
+.painttitle
+{
+    font-size: 1.30rem;
+}
+.carddesc
+{
+    font-size: 20px;
+}
 /*--- instant water heater ----*/
 .paragraph
 {
@@ -790,11 +805,11 @@ footer {
     overflow: hidden;
     width: 30rem;
 }
-.dropdown-menu
+.menu
 {
     background-color: #053257;
 }
-.dropdown-item
+.dropitem
 {
     color: #fff;
 }
@@ -842,6 +857,112 @@ footer {
     width: 15rem;
     height: 150px;
 }
+
+/**** HEADER *****/
+header {
+    padding: 34px 27px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 5px 0px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    color: #111C38;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #EF0A21;
+}
+.navbar-collapse {
+    padding-top: 10px;
+}
+.navbar-nav .nav-item .nav-link.ask-btn {
+    background: #CEE5F1;
+    border-radius: 63px;
+    padding: 5px 28px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.navbar-nav .nav-item .nav-link.ask-btn:hover {
+    background-color: #EF0A21;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .dropdown-menu li {
+    position: relative;
+}
+
+.navbar-nav .nav-item .dropdown-menu li:hover ol {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-nav .nav-item .dropdown-menu li ol {
+    background-color: #053257;
+    padding: 10px 0;
+    position: absolute;
+    right: -145px;
+    top: 0;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar-nav .nav-item .dropdown-menu li ol a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    padding: 4px 16px;
+}
+
+.navbar-nav .nav-item .dropdown-menu li ol a:hover {
+    background-color: #EF0A21;
+    color: #fff;
+}
+/* .dropdown-menu
+{
+    background-color: #053257;
+}
+.dropdown-item
+{
+    color: #fff;
+}
+:hover.dropdown-item
+{
+    background-color: #EF0A21;
+    color: #fff;
+} */
+
+
+
+
 /*---------------------------------------------- media query ------------------------------------------------------------ */
 @media only screen and (max-width: 1400px){
     .container-div{
@@ -961,6 +1082,25 @@ h1{font-size: 38px;}
 {
     font-size: 17px;
 }
+.title {
+    font-size: 39px;
+}
+.costtitle {
+    font-size: 40px;
+    top: -29px;
+}
+.maintainheader {
+    font-size: 35px;
+    top: -25px;
+}
+.proptitle {
+    font-size: 38px;
+    top: 26px;
+}
+.galleryheader {
+    font-size: 35px;
+    top: 22px;
+}
 }
 @media only screen and (max-width: 950px){
     .container-div{
@@ -988,6 +1128,9 @@ h1{font-size: 38px;}
         height: 277px;
     }
     .factortitle{font-size: 34px;}
+    .headerfont {
+        font-size: 13px;
+    }
 }
 @media only screen and (max-width: 850px){
     .container-div{
@@ -995,6 +1138,9 @@ h1{font-size: 38px;}
     }
     .paintingimg {
         width: 33rem;
+    }
+    .red-button, .blue-button {
+        padding: 16px 15px !important;
     }
     .formargin
     {
@@ -1010,6 +1156,22 @@ h1{font-size: 38px;}
     .btn-submit {
         width: 200px;
     }
+    .arrow1 {
+        position: absolute !important;
+        top: 45px !important;
+        right: 50px !important;
+        width: 30px !important;
+        height: 30px !important;
+        left: -370px!important;
+    }
+    .arrow2 {
+        position: absolute !important;
+        top: 45px !important;
+        right: 300px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    
         
 }
 @media only screen and (max-width: 768px){
@@ -1033,6 +1195,34 @@ h1{font-size: 38px;}
     .galleryimg {
         width: 285px;
         height: 180px;
+    }
+    .footer-number ul li a {
+        font-size: 14px;
+    }
+    .footer-link h4 {
+        font-size: 18px;
+    }
+    .links {
+        font-size: 17px;
+    }
+    .maintainheader {
+        font-size: 33px;
+        top: -23px;
+    }
+    .arrow1 {
+        position: absolute !important;
+        top: 45px !important;
+        right: 50px !important;
+        width: 30px !important;
+        height: 30px !important;
+        left: -325px!important;
+    }
+    .arrow2 {
+        position: absolute !important;
+        top: 45px !important;
+        right: 251px !important;
+        width: 30px !important;
+        height: 30px !important;
     }
 }
 @media only screen and (max-width: 650px){
@@ -1074,6 +1264,25 @@ h1{font-size: 38px;}
     .request {
         font-size: 42px;
     }
+    .reviewcontainer
+    {
+        width: 100%;
+    }
+    .arrow1 {
+        position: absolute !important;
+        top: 77px !important;
+        right: 50px !important;
+        width: 40px !important;
+        height: 40px !important;
+        left: -280px!important;
+    }
+    .arrow2 {
+        position: absolute !important;
+        top: 77px !important;
+        right: 193px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
 }
 @media only screen and (max-width: 500px){
     .container-div{
@@ -1103,12 +1312,36 @@ h1{font-size: 38px;}
     {
         height: 260px;
     }
+    .title {
+        font-size: 36px;
+    }
+    .arrow1 {
+        position: absolute !important;
+        top: 77px !important;
+        right: 50px !important;
+        width: 40px !important;
+        height: 40px !important;
+        left: -211px!important;
+    }
+    .arrow2 {
+        position: absolute !important;
+        top: 77px !important;
+        right: 124px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
 
 }
 @media only screen and (max-width: 441px){
     .container-div{
         max-width: 333px;
     }
+    h1 {
+        font-size: 30px;
+    }
+    .carddesc {
+        font-size: 18px;
+    }    
     .galleryimg {
         width: 280px;
         height: 180px;
@@ -1137,16 +1370,25 @@ h1{font-size: 38px;}
     {
         padding: 16px 38px !important;
     }
+    .links {
+        font-size: 14px;
+    }
+    .proptitle {
+        font-size: 33px;
+        top: 27px;
+        width: 100%;
+    }
+    .maintainheader {
+        display: none;
+    }
+    .costtitle {
+        font-size: 37px;
+        top: -27px;
+    }
+    
 }
    
-.painttitle
-{
-    font-size: 1.30rem;
-}
-.carddesc
-{
-    font-size: 20px;
-}
+
 
 .heater-brands-img{
     width: 240px;  
