@@ -1369,7 +1369,7 @@ h1{font-size: 38px;}
         font-size: 32px;
     }
     .brands-img {
-        width: 330px;
+        width: 300px;
         height: auto;
     }
     .red-button, .blue-button 
@@ -1399,7 +1399,43 @@ h1{font-size: 38px;}
     }
     
 }
-   
+@media only screen and (max-width: 375px){
+    .container-div{
+        max-width: 300px;
+    }
+    .copyright p {
+        font-size: 14px;
+    }
+    h1{
+        font-size: 27px;
+    }
+    .carddesc {
+        font-size: 15px;
+    }
+    .painttitle {
+        font-size: 1.20rem;
+    }
+.galleryheader {
+    font-size: 31px;
+    top: 22px;
+}
+.arrow2 {
+    position: absolute !important;
+    top: 69px !important;
+    right: 103px !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+.arrow1 {
+    position: absolute !important;
+    top: 70px !important;
+    right: 50px !important;
+    width: 40px !important;
+    height: 40px !important;
+    left: -193px!important;
+}
+
+}
 
 
 .heater-brands-img{
