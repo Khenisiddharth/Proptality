@@ -122,10 +122,23 @@ ul,li
     top: -34px;
     left: 0px;
 }
+.prosConsTitle{
+    width: 100%;
+        font-weight: 700;
+
+
+        font-size: 40px;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        top: -28px;
+}
 .proptext .proptitle
 {
     color: #EAF8FF;
 }
+
 .proptitle
 {
     font-weight: 700;
@@ -148,11 +161,14 @@ ul,li
     left: 50%;
     transform: translate(-50%, 0);
 }
+.titlecolor .gallerytitle{
+    color: #EAF8FF;
+}
 .gallerytitle
 {
     font-weight: 700;
     font-size: 44px;
-    color: #EAF8FF;
+    color: #fff;
     position: absolute;
     font-family: 'Barlow', sans-serif;
     top: 25px;
@@ -336,7 +352,11 @@ ul,li
 {
     align-self: center;
 }
-.arrow1
+.cautionwidth
+{
+    width: 50%;
+}
+.arrow1, .arroW1
 {
     position: absolute !important;
     /* top: 10px !important; */
@@ -345,10 +365,27 @@ ul,li
     height :40px !important;
     left : auto  !important;
 }
- .arrow2
+ .arrow2, .arroW2
 {
     position: absolute !important;
     /* top: 10px !important; */
+    right: 0px !important;
+    width :40px !important;
+    height :40px !important;
+}
+.arrow3
+{
+    position: absolute !important;
+    top: 0px !important;
+    right: 50px  !important;
+    width :40px !important;
+    height :40px !important;
+    left : auto  !important;
+}
+ .arrow4
+{
+    position: absolute !important;
+    top: 0px !important;
     right: 0px !important;
     width :40px !important;
     height :40px !important;
@@ -379,6 +416,14 @@ z-index: 20;}
 {
     color: #EF0A21;
     cursor: pointer;
+}
+.tablewidth
+{
+    width: 75%;
+}
+.pricetable
+{
+    width: 75%;
 }
 .new
 {
@@ -433,6 +478,21 @@ z-index: 20;}
 .proptext .costtitle
 {
     color: #EAF8FF;
+}
+.titlecolor .brand-title{
+    color: #EAF8FF;
+}
+.brand-title
+{
+        width: 100%;
+        font-weight: 700;
+        font-size: 41px;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        top: -30px;
+        margin-bottom: 0.5rem;
 }
 .costtitle {
     font-weight: 700;
@@ -893,7 +953,7 @@ footer {
 .storagecard
 {
     width: 30rem;
-    height: 38rem;
+    /* height: 38rem; */
 }
 .heaterimg
 {
@@ -925,7 +985,7 @@ footer {
 }
 .heaterbrand
 {
-    width: 15rem;
+    width: 14rem;
     height: 150px;
 }
 
@@ -1031,7 +1091,10 @@ header {
     color: #fff;
 } */
 
-
+#flush-headingOne{
+    width:35%;
+}
+.didyouknow-img{ width:150px}
 
 
 /*---------------------------------------------- media query ------------------------------------------------------------ */
@@ -1039,6 +1102,7 @@ header {
     .container-div{
         max-width: 1150px;
     }
+    .brandcard{ width: 22rem;}
     .galleryimg
 {
     width: 370px;
@@ -1058,6 +1122,9 @@ header {
     height: 130px;
 }
 h1{font-size: 38px;}
+.brand-title {
+    font-size: 39px;
+}
 }
 @media only screen and (max-width: 1200px){
     .container-div{
@@ -1066,6 +1133,8 @@ h1{font-size: 38px;}
     .red-button , .blue-button{
         padding: 16px 38px !important;
     }
+    .storagecard { width: 27rem; }
+    .brandcard{ width: 20rem;}
     .paintcard
 {
     width: 15rem;
@@ -1091,6 +1160,9 @@ h1{font-size: 38px;}
         padding: 16px 28px !important;
     }
     h1{font-size: 36px;}
+    .instanttitle , .methodtitle , .page3title ,.prosConsTitle ,.factortitle ,.sixtitle3 , .maintenance-title , .gallerytitle , .customtitle2{ font-size: 37px; }
+    .brandcard{ width: 19rem;}
+    .sixtitle3{top: -24px;}
     .paintingimg
 {
     width: 28rem;
@@ -1119,6 +1191,9 @@ h1{font-size: 38px;}
     {
         font-size: 16px;
     }
+    .card1 {
+        width: 29rem;
+    }
 }
 @media only screen and (max-width: 1024px){
     .container-div{
@@ -1131,6 +1206,11 @@ h1{font-size: 38px;}
     .red-button , .blue-button{
         padding: 16px 20px !important;
     }
+    .instanttitle , .methodtitle , .sixtitle3 , .customtitle2{font-size: 35px; }
+    .prosConsTitle ,.page3title ,.factortitle , .maintenance-title {font-size: 33px;}
+    .gallerytitle {top: 29px;}
+    .storagecard { width: 23rem; }
+    .brandcard{ width: 17rem;}
     .galleryimg {
         width: 300px;
         height: 200px;
@@ -1165,12 +1245,53 @@ h1{font-size: 38px;}
     top: -25px;
 }
 .proptitle {
-    font-size: 38px;
+    font-size: 34px;
     top: 26px;
 }
 .galleryheader {
     font-size: 35px;
     top: 22px;
+}
+.trusttitle {
+    font-size: 34px;
+}
+.card-img-top1 {
+    /* object-fit: cover; */
+    box-sizing: border-box;
+    width: 22rem;
+    min-height: 23rem;
+}
+.card1 {
+    width: 26rem;
+}
+.proptitle2 {
+    width: 100%;
+    font-size: 40px;
+    top: -24px;
+}
+.customtitle2 {
+    width: 100%;
+    font-size: 39px;
+    top: -23px;
+}
+.factortitle {
+ width: 100%;
+    font-size: 36px;
+    top: 20px;
+
+}
+.protitle {
+    width: 100%;
+    font-size: 37px;
+    top: -29px;
+}
+.brand-title {
+    width: 100%;
+    font-size: 34px;
+    top: -27px;
+}
+.cautionwidth {
+    width: 63%;
 }
 }
 @media only screen and (max-width: 950px){
@@ -1184,6 +1305,8 @@ h1{font-size: 38px;}
         width: 255px;
         height: 180px;
     }
+    .storagecard { width: 20rem; }
+    .brandcard{ width: 15rem;}
     .paintingimg {
         width: 23rem;
     }
@@ -1205,6 +1328,23 @@ h1{font-size: 38px;}
     .footer-link2 {
         padding: 0 0 0 10px;
     }
+    .card1 {
+        width: 22rem;
+    }
+    .card-img-top1 {
+        /* object-fit: cover; */
+        box-sizing: border-box;
+        width: 19rem;
+        min-height: 20rem;
+    }
+    .brand-title {
+        width: 100%;
+        font-size: 33px;
+        top: -27px;
+    }
+    .pricetable {
+        width: 90%;
+    }
 }
 @media only screen and (max-width: 850px){
     .container-div{
@@ -1213,6 +1353,9 @@ h1{font-size: 38px;}
     .paintingimg {
         width: 33rem;
     }
+    .storagecard {width: 17rem;}
+    .didyouknow-img{width:140px;}
+    .heaterbrand{width:12.5rem;}
     .red-button, .blue-button {
         padding: 16px 15px !important;
     }
@@ -1230,7 +1373,7 @@ h1{font-size: 38px;}
     .btn-submit {
         width: 200px;
     }
-    .arrow1 {
+    .arrow1, .arroW1 {
         position: absolute !important;
         top: 45px !important;
         right: 50px !important;
@@ -1238,20 +1381,31 @@ h1{font-size: 38px;}
         height: 30px !important;
         left: -370px!important;
     }
-    .arrow2 {
+    .arrow2, .arroW2 {
         position: absolute !important;
         top: 45px !important;
         right: 300px !important;
         width: 30px !important;
         height: 30px !important;
     }
-    
+    .card-img-top1 {
+        /* object-fit: cover; */
+        box-sizing: border-box;
+        width: 15rem;
+        min-height: 18rem;
+    }
+    .card1 {
+        width: 18rem;
+    }
+        
         
 }
 @media only screen and (max-width: 768px){
     .container-div{
         max-width: 576px;
     }
+    .storagecard {width: 30rem; }
+    .didyouknow-img{width:130px;}
     .paintcard {
         width: 16rem;
         height: 277px;
@@ -1283,7 +1437,7 @@ h1{font-size: 38px;}
         font-size: 33px;
         top: -23px;
     }
-    .arrow1 {
+    .arrow1, .arroW1 {
         position: absolute !important;
         top: 45px !important;
         right: 50px !important;
@@ -1291,7 +1445,7 @@ h1{font-size: 38px;}
         height: 30px !important;
         left: -325px!important;
     }
-    .arrow2 {
+    .arrow2, .arroW2 {
         position: absolute !important;
         top: 45px !important;
         right: 251px !important;
@@ -1300,6 +1454,38 @@ h1{font-size: 38px;}
     }
     .footer-link {
         padding: 0px;
+    }
+    .trusttitle {
+        font-size: 32px;
+    }
+    .card-img-top1 {
+        /* object-fit: cover; */
+        box-sizing: border-box;
+        width: 13rem;
+        min-height: 15rem;
+    }
+    .card1 {
+        width: 16rem;
+    }
+    .tablewidth {
+        width: 90%;
+    }
+    .tablewidth {
+        width: 100%;
+    }
+    .cautionwidth {
+        width: 70%;
+    }
+    .factortitle {
+        font-size: 33px;
+    }
+    .protitle {
+        width: 100%;
+        font-size: 34px;
+        top: -25px;
+    }
+    .pricetable {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 650px){
@@ -1321,6 +1507,7 @@ h1{font-size: 38px;}
     {
         margin-top: 24px;
     }
+
     .forminput {
         width: 300px;
     }
@@ -1345,6 +1532,30 @@ h1{font-size: 38px;}
     {
         width: 100%;
     }
+    .brandcard{ width: 13rem;}
+    .background > .slick-controls > .arrow1 {
+        position: absolute !important;
+        top: 77px !important;
+        right: 50px !important;
+        width: 40px !important;
+        height: 40px !important;
+        left: -280px!important;
+    }
+    .arroW1  {
+        position: absolute !important;
+        top: 54px !important;
+        right: 50px !important;
+        width: 40px !important;
+        height: 40px !important;
+        left: -280px!important;
+    }
+    .arroW2 {
+        position: absolute !important;
+        top: 54px !important;
+        right: 193px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
     .arrow1 {
         position: absolute !important;
         top: 77px !important;
@@ -1353,12 +1564,44 @@ h1{font-size: 38px;}
         height: 40px !important;
         left: -280px!important;
     }
-    .arrow2 {
+    .arrow2{
         position: absolute !important;
         top: 77px !important;
         right: 193px !important;
         width: 40px !important;
         height: 40px !important;
+    }
+    .arrow3 {
+        position: absolute !important;
+        top: 47px !important;
+        right: 50px !important;
+        width: 30px !important;
+        height: 30px !important;
+        left: -268px!important;
+    }
+    .arrow4 {
+        position: absolute !important;
+        top: 47px !important;
+        right: 200px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .card-img-top1 {
+        /* object-fit: cover; */
+        box-sizing: border-box;
+        width: 20rem;
+        min-height: 22rem;
+    }
+    .card1 {
+        width: 25rem;
+    }
+    .paragraph
+    {
+        font-size: 18px;
+    }
+    .heater-brands-img {
+        width: 215px !important;
+        min-height: 140px !important;
     }
 }
 @media only screen and (max-width: 500px){
@@ -1371,6 +1614,13 @@ h1{font-size: 38px;}
     .paintcard {
         width: 20rem;
     }
+    .instanttitle , .methodtitle , .page3title ,.factortitle ,.sixtitle3 , .maintenance-title , .gallerytitle ,.galleryheader ,.customtitle2 { font-size: 33px; }  
+    .methodtitle {top: -22px;}
+    .customtitle2{top: -20px;}
+    .didyouknow-img{width:120px;}
+    .brandcard{ width: 15rem;}
+    .arroW1  {left: -231px!important; }
+    .arroW2  {right: 144px !important; }
     .galleryimg {
         width: 320px;
         height: 200px;
@@ -1387,7 +1637,7 @@ h1{font-size: 38px;}
     }
     .content-slider-img
     {
-        height: 260px;
+        height: 250px;
     }
     .title {
         font-size: 36px;
@@ -1400,12 +1650,50 @@ h1{font-size: 38px;}
         height: 40px !important;
         left: -211px!important;
     }
-    .arrow2 {
+    .arrow2{
         position: absolute !important;
         top: 77px !important;
         right: 124px !important;
         width: 40px !important;
         height: 40px !important;
+    }
+    .trusttitle {
+        font-size: 30px;
+    }
+    .heater-brands-img {
+        width: 240px !important;
+        min-height: 150px !important;
+    }
+    .gallerytitle {
+        font-size: 38px;
+    }
+    .arrow3 {
+        position: absolute !important;
+        top: 47px !important;
+        right: 50px !important;
+        width: 30px !important;
+        height: 30px !important;
+        left: -220px!important;
+    }
+    .arrow4 {
+        position: absolute !important;
+        top: 47px !important;
+        right: 153px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .cautionwidth {
+        width: 80%;
+    }
+    .customtitle2 {
+        width: 100%;
+        font-size: 38px;
+        top: -20px;
+    }
+    .titleforheater {
+        font-size: 37px;
+        width: 100%;
+        top: -22px;
     }
 
 }
@@ -1445,7 +1733,7 @@ h1{font-size: 38px;}
     }
     .red-button, .blue-button 
     {
-        padding: 16px 38px !important;
+        padding: 16px 18px !important;
     }
     .links {
         font-size: 14px;
@@ -1468,6 +1756,46 @@ h1{font-size: 38px;}
     .footer-number ul li a {
         padding: 15px 15px;
     }
+    .card-img-top1 {
+        /* object-fit: cover; */
+        box-sizing: border-box;
+        width: 16rem;
+        min-height: 18rem;
+    }
+    .card1 {
+        width: 21rem;
+    }
+    .gallerytitle {
+        font-size: 36px;
+    }
+    .arrow3 {
+        position: absolute !important;
+        top: 43px !important;
+        right: 50px !important;
+        width: 28px !important;
+        height: 28px !important;
+        left: -199px!important;
+    }
+    .arrow4 {
+        position: absolute !important;
+        top: 43px !important;
+        right: 135px !important;
+        width: 28px !important;
+        height: 28px !important;
+    }
+    .protitle {
+        width: 100%;
+        font-size: 30px;
+        top: -20px;
+    }
+    .cautionwidth {
+        width: 90%;
+    }
+    .instanttitle , .methodtitle , .page3title , .prosConsTitle ,.factortitle, .sixtitle3 , .gallerytitle , .galleryheader ,.customtitle2  {font-size: 30px; }
+    .sixtitle3{top: -22px;}
+    .maintenance-title{font-size: 29px; }
+    .arroW1  {left: -195px!important; }
+    .arroW2  {right: 106px !important; }
     
 }
 @media only screen and (max-width: 375px){
@@ -1497,7 +1825,7 @@ h1{font-size: 38px;}
     width: 40px !important;
     height: 40px !important;
 }
-.arrow1 {
+.arrow1{
     position: absolute !important;
     top: 70px !important;
     right: 50px !important;
@@ -1505,7 +1833,62 @@ h1{font-size: 38px;}
     height: 40px !important;
     left: -193px!important;
 }
-
+.gallerytitle {
+    font-size: 32px;
+    top: 28px;
+}
+.arrow4 {
+    top: 39px !important;
+    right: 118px !important;
+}
+.arrow3 {
+    top: 39px !important;
+    left: -181px!important;
+}
+.proptitle2 {
+    width: 100%;
+    font-size: 33px;
+    top: -22px;
+}
+.btn-submit {
+    width: 270px;
+}
+.forminput {
+    width: 270px;
+}
+.customtitle2 {
+    width: 100%;
+    font-size: 33px;
+    top: -20px;
+}
+.card-img-top1 {
+    /* object-fit: cover; */
+    box-sizing: border-box;
+    width: 14rem;
+    min-height: 16rem;
+}
+.titleforheater {
+    font-size: 33px;
+    width: 100%;
+    top: -20px;
+}
+.protitle {
+    width: 100%;
+    font-size: 27px;
+    top: -20px;
+}
+.brand-title {
+    width: 100%;
+    font-size: 30px;
+    top: -24px;
+}
+.factortitle {
+    font-size: 29px;
+    top: 30px;
+}
+.cautionwidth {
+    width: 100%;
+}
 }
 
 
