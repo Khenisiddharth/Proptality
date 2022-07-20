@@ -152,7 +152,7 @@ ul,li
 {
     font-weight: 700;
     font-size: 44px;
-    color: #fff;
+    color: #EAF8FF;
     position: absolute;
     font-family: 'Barlow', sans-serif;
     top: 25px;
@@ -193,13 +193,13 @@ ul,li
 {
     font-weight: 700;
     font-size: 41px;
-    color: #fff;
+    color: #EAF8FF;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0px);
     top: -28px;
 }
-.instanttitle
+/* .instanttitle
 {
         width: 100%;
         font-weight: 700;
@@ -210,7 +210,7 @@ ul,li
         left: 50%;
         transform: translate(-50%, 0px);
         top: -29px;
-}
+} */
 .tankheader
 {
     width: 100%;
@@ -227,14 +227,40 @@ ul,li
         width: 100%;
         font-weight: 700;
 
+
+        font-size: 40px;
+        color: #EAF8FF;
+        position: absolute;
+        top: 21px;
+        left: 50%;
+        transform: translate(-50%, 0px);  
+}
+.maintenance-title
+{
+        width: 100%;
+        font-weight: 700;
+
+
         font-size: 40px;
         color: #fff;
         position: absolute;
-        top: -29px;
+        top: 21px;
         left: 50%;
-        transform: translate(-50%, 0px);   
+        transform: translate(-50%, 0px);  
+}
+.instanttitle
+{
+        width: 100%;
+        font-weight: 700;
+        font-size: 41px;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        top: -5px;
 }
 .customtitle2 {
+    width: 100%;
     font-weight: 700;
     font-size: 44px;
     color: #fff;
@@ -253,6 +279,16 @@ ul,li
 } */
 .title-faqs{
     top: 2px;
+}
+.protitle {
+    width: 100%;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: -29px;
 }
 .sixtitle2
 {
@@ -444,6 +480,35 @@ z-index: 20;}
         transform: translate(-50%, 0px);
         top: -26px;
 }
+.titleforheater {
+    font-size: 43px;
+    width: 100%;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: -22px;
+}
+.trusttitle
+{
+    font-size: 37px;
+}
+.titlecolor .Cautiontitle
+{
+    color: #EAF8FF;
+}
+.Cautiontitle {
+    width: 100%;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: -24px;
+    margin-bottom: 0.5rem;
+}
 .request
 {
     font-weight: 700;
@@ -585,8 +650,14 @@ img {vertical-align: middle;}
     width: 100%;
     height: 380px;
 }
-
-
+.requesttext
+{
+    font-size: 12px;
+}
+.cautiontext
+{
+    font-size: 16px;
+}
 /* footer */
 
 footer {
@@ -599,7 +670,7 @@ footer {
 }
 
 .footer-left p {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 150%;
     color: #111C38;
     margin: 23px 0 38px;
