@@ -122,6 +122,16 @@ ul,li
     top: -34px;
     left: 0px;
 }
+.newcaution-title {
+    width: 100%;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 96px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
 .prosConsTitle{
     width: 100%;
         font-weight: 700;
@@ -1112,10 +1122,6 @@ header {
 {
     width: 17rem;
 }
-.brandcard
-{
-    width: 23rem;
-}
 .heaterbrand
 {
     width: 13rem;
@@ -1487,6 +1493,11 @@ h1{font-size: 38px;}
     .pricetable {
         width: 100%;
     }
+    .newcaution-title {
+        width: 100%;
+        font-size: 36px;
+      
+    }
 }
 @media only screen and (max-width: 650px){
     .container-div{
@@ -1695,7 +1706,11 @@ h1{font-size: 38px;}
         width: 100%;
         top: -22px;
     }
-
+    .newcaution-title {
+        width: 100%;
+        font-size: 33px;
+        top: 100px;
+    }
 }
 @media only screen and (max-width: 441px){
     .container-div{
